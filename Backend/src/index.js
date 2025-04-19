@@ -22,7 +22,7 @@ app.use(cors({
 const PORT = process.env.PORT;
 
 app.use("/api/auth", authRoute);
-app.use("/api/message", messageRoute);
+app.use("/api/messages", messageRoute);
 
 app.get('/', (req, res) => res.send('Hello World!'))
 app.listen(PORT, () => {
