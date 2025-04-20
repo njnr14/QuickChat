@@ -7,18 +7,30 @@
 ## 📚 Table of Contents
 
 - Project Overview
+- Screenshots
 - Features
 - Installation
 - Usage
 - Future Enhancements
 - Technologies Used
-- Screenshots
 
 ---
 
 ## 📌 Project Overview
 
 The main goal of QuickChat is to deliver a seamless, responsive, and real-time chat experience. The system handles user signups and logins securely, displays all users and their online status, supports real-time communication using **Socket.io**, and offers **theme customization** for user preferences.
+## 🖼️ Screenshots
+
+---
+
+![login](https://github.com/user-attachments/assets/fbe9515e-7b36-47cb-8b6f-fc92e8f84b07)
+![home](https://github.com/user-attachments/assets/f376f925-d3b9-43b4-99be-1761f38d9443)
+![image](https://github.com/user-attachments/assets/a29bc734-8050-4b30-9937-6615e1194f91)
+![theme](https://github.com/user-attachments/assets/b6fe58f6-cab9-4716-b755-268760115987)
+![image](https://github.com/user-attachments/assets/8b3883ce-0f48-4b35-84f5-4017de9f07b1)
+![image](https://github.com/user-attachments/assets/c5a6f1ea-77ed-4aaf-8bb8-7ba1796de33d)
+
+
 
 ---
 
@@ -110,19 +122,7 @@ Tools: Vite, dotenv, Postman , Cloudinary
 
 ---
 
-## 🖼️ Screenshots
 
-
-
-![login](https://github.com/user-attachments/assets/fbe9515e-7b36-47cb-8b6f-fc92e8f84b07)
-![home](https://github.com/user-attachments/assets/f376f925-d3b9-43b4-99be-1761f38d9443)
-![image](https://github.com/user-attachments/assets/a29bc734-8050-4b30-9937-6615e1194f91)
-![theme](https://github.com/user-attachments/assets/b6fe58f6-cab9-4716-b755-268760115987)
-![image](https://github.com/user-attachments/assets/8b3883ce-0f48-4b35-84f5-4017de9f07b1)
-![image](https://github.com/user-attachments/assets/c5a6f1ea-77ed-4aaf-8bb8-7ba1796de33d)
-
-
----
 
 
 "QuickChat – Real-time conversations, redefined."
