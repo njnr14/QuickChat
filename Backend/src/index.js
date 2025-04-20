@@ -20,13 +20,13 @@ app.use(cors({
 }))
 
 const PORT = process.env.PORT;
-const __dirname = path.resolve();
+const __dirname = path.resolve("../");
 
 app.use("/api/auth", authRoute);
 app.use("/api/messages", messageRoute);
 
 
-app.get('/', (req, res) => res.send('Hello World!'))
+// app.get('/', (req, res) => res.send('Hello World!'))
 
 if(process.env.NODE_ENV === "production"){
     app.use(express.static(path.join(__dirname , "../Frontend/dist")));
