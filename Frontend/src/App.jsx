@@ -1,16 +1,16 @@
 import React, { useEffect } from "react";
 import Navbar from "./components/Navbar";
 import { Routes, Route, Navigate } from "react-router-dom";
-import Homepage from "./pages/HomePage";
 import SignUpPage from "./pages/SignUpPage";
 import LoginPage from "./pages/LoginPage";
 import SettingPage from "./pages/SettingPage";
 import ProfilePage from "./pages/ProfilePage";
-import { axiosInstance } from "./lib/axios";
 import { useAuthStore } from "./store/useAuthStore";
 import {Loader} from "lucide-react";
 import {Toaster} from "react-hot-toast"
 import {useThemeStore} from "./store/useThemeStore"
+import HomePage from "./pages/HomePage";
+
 // import './App.css'
 const App = () => {
   const { authUser, checkAuth , isCheckingAuth ,onlineUsers} = useAuthStore();
